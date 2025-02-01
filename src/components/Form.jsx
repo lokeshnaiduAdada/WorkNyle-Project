@@ -49,7 +49,7 @@ const Form = () => {
 
     return (
         <>
-            <div style={{ justifyContent: 'center', display: 'flex', padding: '20px' }}>
+            <div className="form-main-content">
                 <table style={{ background: 'orange' }}>
                     <thead style={{ color: 'white', fontSize: '22px', fontWeight: 'bold' }}>
                         <tr style={{ position: 'relative',left:'150px' }}>Employee Form</tr>
