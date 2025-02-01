@@ -6,6 +6,7 @@
 
 @media screen and (max-width:480px){
     .form-main-content{
+        justify-content: center;
         position: relative;
         left:100px;
     }

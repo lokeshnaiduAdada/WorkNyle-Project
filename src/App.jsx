@@ -1,4 +1,5 @@
 import './App.css'
+import '/src/assets/styles/formstyles.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '/src/assets/styles/app.min.css';
 import '/src/assets/styles/app-rtl.min.css';
