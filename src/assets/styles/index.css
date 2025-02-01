@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.page {
+  background-color: #f1f1f1;
+  background-size: cover;
+  width: 100%;
+}
+
+.employment-div {
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    background-color: #FAFAFA;
+}
+
+.employment-name {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: #666666;
+}
+
+.card {
+    background-color: white;
+    width: cover;
+}
+
+.bg-image {
+    background-image: url("../images/Maskgroup.jpg");
+    background-size: 100%;
+    height: 12vh;
+    background-repeat: no-repeat;
+}
+
+
+.profile-image {
+    width: 70px;
+    margin-top: 43px;
+    margin-left: 35px;
+}
+.name {
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #666666;
+
+}
+
+.para-text {
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #F34500;
+}
+
+.img {
+    width: 13.05px;
+    height: 14px;
+}
+
+.details-text {
+    color: #666666;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: left;
+}
+
+.heading {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #666666;
+}
+
+.work-text {
+    color: #F34500;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.custom-column {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+.vertical-line {
+    width: 1px; 
+    background-color: #575757;
+    margin: 0 15px; 
+    height: auto; 
+}
