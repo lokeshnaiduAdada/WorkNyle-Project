@@ -3,11 +3,20 @@
     display: flex;
     padding: 20px;
 }
+.table-hedear-name{
+    position: relative;
+    left:140px;
+}
 
-@media screen and (max-width:480px){
+@media screen and (max-width:510px){
     .form-main-content{
         justify-content: center;
         position: relative;
         left:100px;
+    }
+    .table-hedear-name{
+        left: 0px;
+        
+        
     }
 }
