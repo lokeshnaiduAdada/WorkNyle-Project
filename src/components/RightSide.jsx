@@ -24,7 +24,7 @@ const RightSide = () => {
                             <div className="col-12 col-lg-3 custom-column">
                                 <div className="card mb-3">
                                     <div className="bg-image" >
-                                        <img src="/src/assets/images/profileimage.png" className="profile-image" />
+                                        <img src="../src/assets/images/profileimage.png" className="profile-image" />
                                     </div>
 
                                     <div className="pl-4 pr-4 pt-5">
