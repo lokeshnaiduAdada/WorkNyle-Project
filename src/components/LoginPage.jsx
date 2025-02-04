@@ -29,7 +29,7 @@ const LoginPage = () => {
             <div className="login-section">
                 <div className="form-container">
                     <div className="login-img">
-                        <img src="../src/assets/images/brand-logo-white.png"></img>
+                        <img src="../src/assets/images/brand-logo-white.png"/>
                     </div>
                     <div className="authfy-heading">
                         <h3 className="login-title">Login to your account</h3>

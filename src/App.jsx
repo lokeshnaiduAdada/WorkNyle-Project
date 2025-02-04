@@ -44,7 +44,7 @@ function App() {
                     </>
                 }></Route>
                 <Route path="/form" element={<Form></Form>}></Route> need to change path
-                <Route path="/" element={loading ? <LoginPage /> :  <img id='loader-image' src="../src/assets/images/preloader.gif"></img>} ></Route>
+                <Route path="/" element={loading ? <LoginPage /> :  <img id='loader-image' src="../src/assets/images/preloader.gif"/>} ></Route>
             </Routes>            
         </>
   )
