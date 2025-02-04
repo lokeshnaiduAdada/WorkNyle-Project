@@ -24,10 +24,10 @@ const Header = () => {
 
                                 <a href="#" className="logo logo-light">
                                     <span className="logo-sm">
-                                        <img src="/src/assets/images/logo-light.png" alt="" height="24" style={{ marginBottom: "5px", marginLeft: "20px" }} />
+                                        <img src="logo-light.png" alt="" height="24" style={{ marginBottom: "5px", marginLeft: "20px" }} />
                                     </span>
                                     <span className="logo-lg">
-                                        <img src="/src/assets/images/worknylelogo-white-01-01 1.png" alt="" height="34" style={{ marginBottom: "5px", marginLeft: "2px" }} />
+                                        <img src="worknylelogo-white-01-01 1.png" alt="" height="34" style={{ marginBottom: "5px", marginLeft: "2px" }} />
                                     </span>
                                 </a>
                             </div>

@@ -24,7 +24,7 @@ const RightSide = () => {
                             <div className="col-12 col-lg-3 custom-column">
                                 <div className="card mb-3">
                                     <div className="bg-image" >
-                                        <img src="../src/assets/images/profileimage.png" className="profile-image" />
+                                        <img src="profileimage.png" className="profile-image" />
                                     </div>
 
                                     <div className="pl-4 pr-4 pt-5">
@@ -35,21 +35,21 @@ const RightSide = () => {
                                     <div className="pl-4 pr-4 pt-2 d-flex justify-content-between" >
                                         <div>
                                             <div className="d-flex flex-row">
-                                                <img src="../src/assets/images/Vector.png" className="img" />
+                                                <img src="Vector.png" className="img" />
                                                 <p className="text ml-2">Mobile Number<br />
                                                     <span className="details-text">{data.mobile}</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
-                                                <img src="../src/assets/images/date-of-birth 1.png" className="img" />
+                                                <img src="date-of-birth 1.png" className="img" />
                                                 <p className="text ml-2">Date Of Birth<br />
                                                     <span className="details-text mt-2">{ data.dob}</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
-                                                <img src="../src/assets/images/Vector (1).png" className="img" />
+                                                <img src="Vector (1).png" className="img" />
                                                 <p className="text ml-2">E-Mail<br />
                                                     <span className="details-text mt-2">{data.mail}</span>
                                                 </p>
@@ -58,14 +58,14 @@ const RightSide = () => {
 
                                         <div>
                                             <div className="d-flex flex-row">
-                                                <img src="../src/assets/images/age 1.png" className="img" />
+                                                <img src="age 1.png" className="img" />
                                                 <p className="text ml-2">Age<br />
                                                     <span className="details-text">{data.age}</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
-                                                <img src="../src/assets/images/genders 1.png" className="img" />
+                                                <img src="genders 1.png" className="img" />
                                                 <p className="text ml-2">Gender<br />
                                                     <span className="details-text mt-2">{data.gender}</span>
                                                 </p>
