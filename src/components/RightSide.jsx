@@ -1,20 +1,20 @@
-    import { useContext } from "react";
+import { useContext } from "react";
 import { UserContext } from "../Context/UserContext";
 
 
 const RightSide = () => {
 
-    const { data } = useContext(UserContext);
+    const { showmenu,data } = useContext(UserContext);
 
     return (
         //< !-- ============================================================== -->
         //    < !--Start right Content here-- >
         //    < !-- ============================================================== -->
-        
-        <div className="main-content" style={{ marginRight: '0px' }}>
-            <div className="page">
-                <div style={{ paddingTop: "70px" }}>
-                    <div className="container-fluid">
+
+        <div className="main-content" style={{ marginRight: '0px' }} >
+            <div className="page" >
+                <div style={{ paddingTop: "70px", marginLeft: showmenu ? '130px' :'0px' }}>
+                    <div className="container-fluid"  >
                         <div className="row">
                             <div className="col-12 employment-div">
                                 <p className="employment-name ml-2 mt-2 mb-2">Employment</p>

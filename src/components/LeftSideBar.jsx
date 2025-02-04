@@ -1,15 +1,17 @@
 
+
 const LeftSideBar = () => {
+
+    
 
     return (
         <div className="vertical-menu">
-
             <div data-simplebar className="h-100">
 
                 {/*<!--- Sidemenu -->*/}
                 <div id="sidebar-menu" >
                     {/*<!-- Left Menu Start -->*/}
-                    <ul className="metismenu list-unstyled" id="side-menu">
+                    <ul className="metismenu list-unstyled" id="side-menu" >
                         {/*<!-- <li className="menu-title">Main</li> -->*/}
 
                         <li>
@@ -19,7 +21,6 @@ const LeftSideBar = () => {
                                     <span> Dashboard </span>
                                 </a>
                             </li>
-
                         <li>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
                                 <i className="bi bi-search" style={{ fontSize: '20px' }}></i><br></br>
@@ -54,9 +55,9 @@ const LeftSideBar = () => {
                             </li>
 
                         <li>
-                            <a href="#" className="waves-effect text-center" style={{ padding: '5px' }}>
+                            <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
 
-                                <i className="bi bi-journals"></i><br></br>
+                                <i className="bi bi-journals" style={{ fontSize: '20px' }}></i><br></br>
                                     <span>Reports</span>
                                 </a>
                                
@@ -64,7 +65,7 @@ const LeftSideBar = () => {
 
                         <li>
                             <a href="#" className="text-center">
-                                <i className="bi bi-box-arrow-right" ></i><br></br>
+                                <i className="bi bi-box-arrow-right" style={{ fontSize: '20px' }}></i><br></br>
                                     <span> Logout</span>
                                 </a>
                             </li>

@@ -1,8 +1,17 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { UserContext } from "../Context/UserContext";
 
 const Header = () => {
 
+    const { setShowMenu } = useContext(UserContext);
+
     const [isFullScreen, setIsFullScreen] = useState(false);
+    const [menu, setMenu] = useState(false);
+
+    const handleMenuButton = () => {
+        setMenu(!menu)
+        setShowMenu(menu);
+    }
 
     const toggleFullScreen = () => {
         if (!document.fullscreenElement) {
@@ -32,7 +41,7 @@ const Header = () => {
                                 </a>
                             </div>
 
-                            <button type="button" className="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                            <button type="button" className="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn" onClick={handleMenuButton }>
                                 {/*<i className="mdi mdi-menu"></i>*/}
                                 <i className="bi bi-list" style={{ color: 'white' }}></i>
                             </button>
