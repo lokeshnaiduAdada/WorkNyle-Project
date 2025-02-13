@@ -1,0 +1,12 @@
+﻿.form-main-content {
+    justify-Content: center;
+    display: flex;
+    padding: 20px;
+}
+
+@media screen and (max-width:480px){
+    .form-main-content{
+        position: relative;
+        left:100px;
+    }
+}

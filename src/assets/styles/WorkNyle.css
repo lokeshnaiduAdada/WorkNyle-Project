@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.tablebody {
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+.tablebody  > td {
+     background-color: white;
+     border: 1px solid #c6c6c6;
+     text-align: center;
+     padding: 12px;
+     font-family: "Open Sans";
+     color: #666666;
+     font-size: 12px;
+     font-weight: 500;
+    }
+.list-employee-table > thead> tr> th{
+    font-size:14px;
+}
+#formtable{
+    border-collapse:separate;
+}
+#formtable > thead > tr > th{
+    background-color:orange;
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+    border:none;
+}
+#formtable > tbody{
+    border-style:none;
+}
+    #formtable > tbody > tr > th{
+        color:black;
+        text-align:left;
+    }
+   #collam{
+       width:0.5px;
+       font-weight:bold;
+   }
+#tableinput {
+    width: 11.5rem;
+    height: 28px;
+}
+    body {
+        background-color: #f1f1f1;
+        background-size: cover;
+    }
+  
+.heading-bar {
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    background-color: #FAFAFA;
+}
+
+.main-heading {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #666666;
+}
+
+th {
+    background-color: #ffba46;
+    color: white;
+    border:1px solid white;
+    text-align: center;
+    padding: 12px;
+    font-family: "Open Sans";
+}
+
+td tr{
+    background-color: white;
+    border:1px solid #c6c6c6;
+    text-align: center;
+    padding: 12px;
+    font-family: "Open Sans";
+    color: #666666;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* CheckIn/CheckOut Styles */
+
+.checkin-button {
+    background-color: #2bc179;
+    color: white;
+    font-weight: 500;
+    border: 0px;border-radius: 8px;
+    width: 130px;
+    height: 40px;
+}
+
+.checkout-button {
+    background-color: #898989;
+    color: white;
+    font-weight: 500;
+    border: 0px;border-radius: 8px;
+    width: 130px;
+    height: 40px;
+}
+
+.checkin-table {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border-style: hidden;
+}
+
+/* HolidayList Styles */
+
+.holidayslist-heading {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.dropdown {
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+.holiday-table {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border-style: hidden;
+}
+
+.holidaylist-card {
+    background-color: white;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.list-text {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29.96px;
+}
+
+/* LeaveApplication Styles */
+
+
+.leave-application-heading {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    color: #666666;
+}
+
+.leave-application-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #ffba46;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+.leave-application-card1 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #f4652d;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+.leave-application-card2 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #42a9af;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+.leave-application-card3 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #36c480;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+@media (max-width:768px) {
+    .card-margin {
+        margin-bottom: 10px;
+    }
+}
+
+.card-text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #666666;
+}
+
+.background-form {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #666666;
+}
+
+.input {
+    height: 40px;
+    width: 100%;
+}
+
+.leave-application-button {
+    height: 30px;
+    width: 80px;
+    background-color: #2bc179;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button-end {
+    margin-top: 100px;
+}
+
+/* ListPurchases */
+
+.list-purchase-table {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border-style: hidden;
+}
+
+/* Leave Styles */
+
+.leave-table {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    border-style: hidden;
+    overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+/*Attedance page*/
+
+
+.leave-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+@media (max-width: 1080px) {
+    .leave-card {
+        margin-bottom: 15px;
+    }
+}
+.leave-card-heading {
+    font-family: "Open Sans";
+    display:flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+}
+
+.leave-card canvas {
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+.leave-details {
+    text-align: left;
+}
+
+.leave-details ul {
+    list-style: square;
+    padding: 0;
+}
+
+.leave-card-list {
+    color: #666666;
+}
+
+.casual-available-list {
+    list-style: square;
+    color: #ffba46;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.consumed-list {
+    list-style: square;
+    padding: 0;
+    color: #c6c6c6;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.sick-available-list {
+    list-style: square;
+    color: #F87113;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.earned-available-list {
+    list-style: square;
+    color: #3EA8AE;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.carry-forward-list {
+    list-style: square;
+    color: #89CDD1;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.loss-lst-mnth-list {
+    list-style: square;
+    color: #8DE0B8;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.loss-total-list {
+    list-style: square;
+    color: #2BC179;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.more-link {
+    cursor: pointer;
+    color: #666666;
+    text-decoration: underline;
+}
+.more-link:hover {
+    text-decoration: none;
+}
+
+.status-approved {
+    color: #17B569;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: #F34500;
+    font-weight: bold;
+}
+
+/* Salary Structure page */
+
+.salary-heading-color {
+    color: #04D933;
+}
+.salary-card-test{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #575757;
+}
+.payroll-button {
+    background-color: #FFB12E;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 0 1px #FFB12E;
+}
+
+.form-background {
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+
+.section-headings {
+    color: #666666;
+    font-weight: 600;
+    background-color: #FAFAFA;
+    /*    border: 1px solid #C6C6C6;*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+} 
+
+  .text-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 1080px) {
+    .text-input {
+      display: flex;
+      flex-direction: column;
+      align-items:start;
+      margin-bottom: 5px;
+    }
+
+    .form-margin {
+        margin-top: 18px;
+      }
+    
+}
+
+.form-text {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    color: #575757;
+    min-width: 155px;
+    justify-content: left;
+    display: flex;
+}
+
+  .hra-text {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    color: #575757;
+    min-width: 80px;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .hra-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 1080px) {
+    .hra-input {
+      display: flex;
+      flex-direction: column;
+      align-items:start;
+      margin-top: 2px;
+    }
+}
+
+.form-button {
+    background-color: #00C236;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 90px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 0 0 2px #98df8a;
+  }
+
+  .form-button2 {
+    background-color: #0193C1;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 90px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 0 0 2px #64bbd6; /* Outer border-like shadow */
+  }
+
+  .button-top-padding {
+    padding-top: 33px;
+  }
+
+  .list-employee-table {
+    width: 100%; 
+  }
+
+  .add-employee-form-button {
+    background-color: #FFA309;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 0 0 2px #ffe600; /* Outer border-like shadow */
+  }
