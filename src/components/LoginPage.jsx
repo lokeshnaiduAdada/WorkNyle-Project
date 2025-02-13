@@ -12,7 +12,7 @@ const LoginPage = () => {
     const navigate = useNavigate();
 
      const handleLoginButton = () => {
-         navigate('/form');
+         navigate("/form");
      }
 
     const handleShowPassword = () => {

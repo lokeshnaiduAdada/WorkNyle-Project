@@ -91,7 +91,7 @@ function App() {
                         <RightSide />
                     </>
                 }></Route>
-                <Route path="/form" element={<Form></Form>}></Route> need to change path
+                <Route path="/form" element={<Form></Form>}></Route> 
                 <Route path="/" element={loading ? <LoginPage /> : <img id='loader-image' src="preloader.gif"  />} ></Route>
                 <Route path="/attendance" element={<Attendance />}></Route>
                 <Route path="/addpayroll" element={<AddPayRoll />}></Route>
