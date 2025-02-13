@@ -13,7 +13,7 @@ import '/src/assets/styles/layout.css';
 import '/src/assets/styles/WorkNyle.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
 import '/src/assets/styles/WorkNyle2.css';
 import AddEmployee from './components/AddEmployee';
 import Header from './components/Header';
