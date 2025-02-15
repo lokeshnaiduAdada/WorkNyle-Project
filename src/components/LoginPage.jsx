@@ -12,7 +12,7 @@ const LoginPage = () => {
     const navigate = useNavigate();
 
      const handleLoginButton = () => {
-         navigate("/form");
+         navigate("/fetch");
      }
 
     const handleShowPassword = () => {
@@ -40,26 +40,25 @@ const LoginPage = () => {
                                 <input className="form-control email" placeholder="Mobile Number" value={mobile} onChange={(e) => setMobile(e.target.value)} style={{ borderRadius: '0px' }} />
                                 <span className="text-danger"></span>
                             </div>
-                            <div className="form-group wrap-input">
-                                <div className="form-password-input">
-                                    <input className="form-control password" type={showpassword ? 'password' : 'text'} placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-                                    <i className="bi bi-eye" onClick={handleShowPassword }></i>
-                                </div>
+                            <div className="form-password-input">
+                                <input className="form-control password" type={showpassword ? 'password' : 'text'} placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                                <img className="form-password-input-image" src="/Eye off.png" onClick={handleShowPassword }></img>
                             </div>
+                           
 
-                            <div className="row-3-input">
-                                <div>
-                                    <input type="checkbox" ></input>
-                                    <span className="label-text">Remember me</span>
+                            <div className="row-3-input" style={{ marginBottom:"5px" }}>
+                                <div className="remember-box">
+                                    <input type="checkbox" style={{ color:"#FFFFFF" }}></input>
+                                    <span className="form-remember">Remember me</span>
                                 </div>
-                                <div className="col-xs-6 col-sm-6">
-                                    <p className="forgotPwd">
+                                <div className="passwordforgot">
+                                    <span className="forgotPwd">
                                         <a href="ResetPassword">Reset password?</a>
-                                    </p>
+                                    </span>
                                 </div>
                             </div>
                             <div className="form-group">
-                                <button type="submit" className="btn btn-lg btn-primary btn-block" style={{ background: 'orangered' }} onClick={handleLoginButton }>Login</button>
+                                <button type="submit" className="btn btn-lg btn-primary btn-block" style={{ background: 'F34500' }} onClick={handleLoginButton }>Login</button>
                             </div>
                         </form>
                     </div>

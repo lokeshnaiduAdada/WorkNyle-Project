@@ -10,12 +10,13 @@
      text-align: center;
      padding: 12px;
      font-family: "Open Sans";
-     color: #666666;
+     color: #717171;
      font-size: 12px;
      font-weight: 500;
     }
 .list-employee-table > thead> tr> th{
     font-size:14px;
+    color:#FFFFFF;
 }
 #formtable{
     border-collapse:separate;

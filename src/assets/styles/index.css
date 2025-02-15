@@ -35,13 +35,16 @@
 
 .profile-image {
     width: 70px;
-    margin-top: 43px;
-    margin-left: 35px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    /*    margin-top: px;
+    margin-left: px;*/
 }
 .name {
     font-family: "Open Sans";
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 16px;
     text-align: left;
     color: #666666;
@@ -51,6 +54,7 @@
 .para-text {
     color: #666666;
     font-family: "Open Sans";
+    font-weight:500;
     font-size: 15px;
     text-align: left;
 
@@ -109,3 +113,17 @@
     margin: 0 15px; 
     height: auto; 
 }
+/*.container {
+    padding-top: 70px;
+}
+.container.open{
+    margin-left:130px;
+}
+.container.close{
+    margin-left:0px;
+}
+@media (max-width: 768px) {
+    .container.open {
+        margin-left: 50px;*/ /* Adjust for smaller screens */
+    /*}
+}*/

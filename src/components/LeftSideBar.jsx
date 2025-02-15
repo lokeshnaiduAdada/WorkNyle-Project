@@ -17,14 +17,14 @@ const LeftSideBar = () => {
                         <li>
                             <a href="#" className="waves-effect text-center" style={{ padding:'8px' }}>
 
-                                <i className="bi bi-columns-gap" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span> Dashboard </span>
+                                <img className="bi bi-columns-gap" src="/dashboard.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu"> Dashboard </span>
                                 </a>
                             </li>
                         <li>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
-                                <i className="bi bi-search" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span>Employment</span>
+                                <img className="bi bi-search" src="/employee 2.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu">Employment</span>
                             </a>
                             <ul className="sub-menu">
                                 <li style={{ fontSize: '25px' }}><Link to="/employeelist" className="nav-link" style={{ padding: '8px' }}>List Employee</Link></li>
@@ -34,22 +34,26 @@ const LeftSideBar = () => {
 
                         <li>
                             <Link to="/attendance" className="waves-effect text-center" style={{ padding: '8px' }}>
-                                <i className="bi bi-calendar-check" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span> Attendance </span>
+                                <img className="bi bi-search" src="/calendar.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu"> Attendance </span>
                                 </Link>
                             </li>
 
                         <li>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
-                                <i className="bi bi-suitcase-lg" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span> Payroll </span>
-                                </a>
-                            </li>
+                                <img className="bi bi-search" src="/wages.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu">PayRoll</span>
+                            </a>
+                            <ul className="sub-menu">
+                                <li style={{ fontSize: '25px' }}><Link to="/listpayroll" className="nav-link" style={{ padding: '8px' }}>List PayRoll</Link></li>
+                                <li style={{ fontSize: '25px' }}><Link to="/addpayroll" className="nav-link" style={{ padding: '8px' }}>Add PayRoll</Link></li>
+                            </ul>
+                        </li>
 
                             <li>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
-                                <i className="bi bi-gear-fill" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span> Services</span>
+                                <img className="bi bi-search" src="/service.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu"> Services</span>
                                     
                                 </a>
                             </li>
@@ -57,16 +61,16 @@ const LeftSideBar = () => {
                         <li>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
 
-                                <i className="bi bi-journals" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span>Reports</span>
+                                <img className="bi bi-search" src="/report.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu">Reports</span>
                                 </a>
                                
                             </li>
 
                         <li>
                             <a href="#" className="text-center">
-                                <i className="bi bi-box-arrow-right" style={{ fontSize: '20px' }}></i><br></br>
-                                    <span> Logout</span>
+                                <img className="bi bi-search" src="/logout.png" style={{ width: '25px' }}></img><br></br>
+                                <span className="leftsidemenu">Logout</span>
                                 </a>
                             </li>
                         </ul>

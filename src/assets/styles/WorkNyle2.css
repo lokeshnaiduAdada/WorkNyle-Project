@@ -238,7 +238,7 @@ td {
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
-    color: #666666;
+    color: #717171;
 }
 
 .leave-card canvas {
@@ -398,7 +398,7 @@ td {
 .form-text {
     font-family: "Open Sans";
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     color: #575757;
     min-width: 150px;
 }
@@ -406,7 +406,7 @@ td {
 .hra-text {
     font-family: "Open Sans";
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     color: #575757;
     min-width: 120px;
    display:flex;
@@ -434,6 +434,8 @@ td {
 
 .form-control {
     font-size: 12px;
+    color:#717171;
+    font-weight:500;
 }
 
 .form-button {
@@ -715,6 +717,7 @@ td {
     font-family: "Open Sans";
     font-size: 14px;
     color: #575757;
+    font-weight:600;
 }
 
 .payroll-button {

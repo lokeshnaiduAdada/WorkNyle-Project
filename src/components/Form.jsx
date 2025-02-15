@@ -138,29 +138,29 @@ const Form = () => {
                     <button type='submit' className="btn btn-primary" style={{ margin:"15px" }} onClick={handleSubmit}>Submit</button>
                 </div>
 
-                <div style={{ display: "flex",gap:"15px" }}>
-                    <div >
+                <div style={{ display: "block" }}>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("addemployee") }>Add Employee</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("employeelist") }>List Employee</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("addpayroll") }>Add PayRoll</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("attendance") }>Attendance</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("listpayroll") }>List PayRolls</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("listpurchase") }>List Purchase</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("payslip") }>Pay Slips</button>
                     </div>
-                    <div>
+                    <div style={{margin:"15px"}}>
                         <button className="btn btn-info" onClick={()=>handlePathButton("salarystructure") }>Salary Structure</button>
                     </div>
                 </div>

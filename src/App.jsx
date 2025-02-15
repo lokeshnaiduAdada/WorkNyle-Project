@@ -13,7 +13,7 @@ import '/src/assets/styles/layout.css';
 import '/src/assets/styles/WorkNyle.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import '@fortawesome/fontawesome-free/css/all.min.css';
+//import '@fortawesome/fontawesome-free/css/all.min.css';
 import '/src/assets/styles/WorkNyle2.css';
 import AddEmployee from './components/AddEmployee';
 import Header from './components/Header';
@@ -21,7 +21,7 @@ import LeftSideBar from './components/LeftSideBar';
 import RightSide from './components/RightSide';
 import { Routes, Route } from "react-router"
 import EmployeeList from './components/EmployeeList';
-import Form from './components/Form';
+//import Form from './components/Form';
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "./Context/UserContext";
 import LoginPage from './components/LoginPage';
@@ -91,7 +91,7 @@ function App() {
                         <RightSide />
                     </>
                 }></Route>
-                <Route path="/form" element={<Form></Form>}></Route> 
+                {/*<Route path="/form" element={<Form></Form>}></Route> */}
                 <Route path="/" element={loading ? <LoginPage /> : <img id='loader-image' src="preloader.gif"  />} ></Route>
                 <Route path="/attendance" element={<Attendance />}></Route>
                 <Route path="/addpayroll" element={<AddPayRoll />}></Route>

@@ -24,11 +24,12 @@ const RightSide = () => {
                             <div className="col-12 col-lg-3 custom-column">
                                 <div className="card mb-3">
                                     <div className="bg-image" >
+                                        <img src="Maskgroup.jpg" style={{ width: "100%", height:"100px" }} />
                                         <img src="profileimage.png" className="profile-image" />
                                     </div>
 
-                                    <div className="pl-4 pr-4 pt-5">
-                                        <h1 className="name" style={{ fontSize:'15px' }}>{data.name} </h1>
+                                    <div className="pl-4 pr-4 pt-5" >
+                                        <h1 className="name" style={{ fontSize:'16px' }}>Adada lokesh satya sai vinodh naidu </h1>
                                         <p className="para-text">(Developer)</p>
                                     </div>
 
@@ -37,21 +38,21 @@ const RightSide = () => {
                                             <div className="d-flex flex-row">
                                                 <img src="Vector.png" className="img" />
                                                 <p className="text ml-2">Mobile Number<br />
-                                                    <span className="details-text">{data.mobile}</span>
+                                                    <span className="details-text">8985356566</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
                                                 <img src="date-of-birth 1.png" className="img" />
                                                 <p className="text ml-2">Date Of Birth<br />
-                                                    <span className="details-text mt-2">{ data.dob}</span>
+                                                    <span className="details-text mt-2">18/06/2001</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
                                                 <img src="Vector (1).png" className="img" />
                                                 <p className="text ml-2">E-Mail<br />
-                                                    <span className="details-text mt-2">{data.mail}</span>
+                                                    <span className="details-text mt-2">adadalokesh7@gmail.com</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -60,14 +61,14 @@ const RightSide = () => {
                                             <div className="d-flex flex-row">
                                                 <img src="age 1.png" className="img" />
                                                 <p className="text ml-2">Age<br />
-                                                    <span className="details-text">{data.age}</span>
+                                                    <span className="details-text">23</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
                                                 <img src="genders 1.png" className="img" />
                                                 <p className="text ml-2">Gender<br />
-                                                    <span className="details-text mt-2">{data.gender}</span>
+                                                    <span className="details-text mt-2">male</span>
                                                 </p>
                                             </div>
                                         </div>

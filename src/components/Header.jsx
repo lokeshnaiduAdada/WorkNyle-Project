@@ -29,7 +29,7 @@ const Header = () => {
                 <header id="page-topbar">
                     <div className="navbar-header">
                         <div className="d-flex">
-                            <div className="navbar-brand-box" style={{ width: '140px' } }>
+                            <div className="navbar-brand-box" >
 
                                 <a href="#" className="logo logo-light">
                                     <span className="logo-sm">
@@ -43,7 +43,7 @@ const Header = () => {
 
                             <button type="button" className="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn" onClick={handleMenuButton }>
                                 {/*<i className="mdi mdi-menu"></i>*/}
-                                <i className="bi bi-list" style={{ color: 'white' }}></i>
+                                <i className="bi bi-list" style={{ color: '#FFFFFF' }}></i>
                             </button>
                         </div>
 
@@ -65,7 +65,7 @@ const Header = () => {
                                     type="button"
                                     className="btn header-item noti-icon waves-effect"
                                     onClick={toggleFullScreen}>
-                                    <i className={`bi ${isFullScreen ? "bi-fullscreen-exit" : "bi-fullscreen"}`} style={{ color: 'white' }}></i>
+                                    <i className={`bi ${isFullScreen ? "bi-fullscreen-exit" : "bi-fullscreen"}`} style={{ color: '#FFFFFF' }}></i>
                                 </button>
                             </div>
                         </div>

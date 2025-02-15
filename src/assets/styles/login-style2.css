@@ -46,9 +46,12 @@ body, h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	justify-content: center;
 }
-.form-section >form > div{
-	width:100%;
-	padding-top:10px;
+.form-section > form{
+	display:grid;
+	gap:15px;
+}
+.form-section > form > div {
+	width: 100%;
 }
 .form-mobile-input {
 	margin-bottom: 5px;
@@ -56,28 +59,55 @@ body, h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	border-bottom: 2px solid #d9d9d9;
 }
-.form-mobile-input > input{
-	height:60px;
-}
+	.form-mobile-input > input {
+		height: 60px;
+		color: #666666;
+		font-size: 14px;
+		font-weight: 500;
+	}
 .form-password-input {
+	margin-bottom: 5px;
 	display: flex;
 	background-color: var(--bs-body-bg);
 	width: 100%;
 }
-.form-password-input > input {
-	height: 60px;
+	.form-password-input > input {
+		height: 60px;
+		color: #666666;
+		font-size: 14px;
+		font-weight: 500;
+		border-style: none;
+	}
+.form-password-input-image {
+	padding: 1.0rem .70rem ;
+	
+	width: 45px;
 }
-.form-password-input > i{
-	position:relative;
-	top:18px;
-	left:0rem;
-}
-	.row-3-input {
+.row-3-input {
 	display: flex;
 	justify-content: space-between;
 }
+.remember-box {
+	width: 50%;
+	justify-content: left;
+	display: inline-flex;
+}
+.form-remember {
+	padding-left: 15px;
+}
+.passwordforgot {
+	width: 50%;
+	display: contents;
+}
 .forgotPwd {
-	text-align:right;
+	text-align: right;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.forgotPwd > a{
+	font-weight:400;
+	color:#23B0B8;
 }
 
 @media (max-width:768px) {
