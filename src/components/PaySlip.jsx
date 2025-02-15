@@ -1,7 +1,12 @@
+import { useContext } from "react";
+import { UserContext } from "../Context/UserContext";
 import Header from "./Header";
+import LeftSideBar from "./LeftSideBar";
 
 
 const PaySlip = () => {
+
+    const { showmenu } = useContext(UserContext);
 
     const paySlipData = [
         {
@@ -20,8 +25,9 @@ const PaySlip = () => {
 
     return (
         <>
-            <Header/>
-            <div style={{ paddingTop: "5rem" }}>
+            <Header />
+            {showmenu && <LeftSideBar/>}
+            <div style={{ paddingTop: "5rem", marginLeft: showmenu ? '130px' : '0px' }}>
                 <div className="heading-bar">
                     <p className="main-heading m-2 ml-4">Payslip</p>
                 </div>
