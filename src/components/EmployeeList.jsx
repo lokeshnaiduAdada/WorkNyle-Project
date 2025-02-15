@@ -58,7 +58,7 @@ const EmployeeList = () => {
                                                 <td>{addempform.doj}</td>
                                                 <td>{addempform.workmail}</td>
                                                 <td></td>
-                                                <td>
+                                                <td style={{ display: "flex", justifyContent: "center" }}>
                                                     <img style={{width:"35px"}} src={"/compose.png" } title="Edit"></img>
                                                     <img style={{width:"35px"}} src={ "/eye.png"} title="View"></img>
                                                 </td>

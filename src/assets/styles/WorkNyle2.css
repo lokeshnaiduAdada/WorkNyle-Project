@@ -422,7 +422,6 @@ td {
     font-size: 12px;
     font-weight: 600;
     color: #575757;
-    min-width: 120px;
    display:flex;
     /*justify-content:left;*/
 }
