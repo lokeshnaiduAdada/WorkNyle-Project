@@ -66,7 +66,6 @@ const EmployeeList = () => {
                                         </tbody>
 
                                     </table>
-                                    {console.log(addempform.firstName, addempform.middleName, addempform.lastName, addempform.dob, addempform.gender, addempform.countrycode, addempform.mobile, addempform.email, addempform.aadhar, addempform.pan, addempform.location, addempform.empcode, addempform.division, addempform.designation, addempform.workmail, addempform.reportmanager ) }
                                 </div>
                             </div>
                         </div>
