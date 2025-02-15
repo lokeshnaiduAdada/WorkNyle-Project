@@ -29,46 +29,46 @@ const RightSide = () => {
                                     </div>
 
                                     <div className="pl-4 pr-4 pt-5" >
-                                        <h1 className="name" style={{ fontSize:'16px' }}>Adada lokesh satya sai vinodh naidu </h1>
+                                        <h1 className="name" style={{ fontSize:'16px' }}>Rachel Mathew </h1>
                                         <p className="para-text">(Developer)</p>
                                     </div>
 
-                                    <div className="pl-4 pr-4 pt-2 d-flex justify-content-between" >
-                                        <div>
+                                    <div className="pl-4 pr-4 pt-2 d-flex justify-content-between" style={{ gap: "15px" }}>
+                                        <div style={{ width:"50px" }}>
                                             <div className="d-flex flex-row">
                                                 <img src="Vector.png" className="img" />
                                                 <p className="text ml-2">Mobile Number<br />
-                                                    <span className="details-text">8985356566</span>
+                                                    <span className="details-text">9876543210</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
                                                 <img src="date-of-birth 1.png" className="img" />
                                                 <p className="text ml-2">Date Of Birth<br />
-                                                    <span className="details-text mt-2">18/06/2001</span>
+                                                    <span className="details-text mt-2">DD/MM/YYYY</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
                                                 <img src="Vector (1).png" className="img" />
                                                 <p className="text ml-2">E-Mail<br />
-                                                    <span className="details-text mt-2">adadalokesh7@gmail.com</span>
+                                                    <span className="details-text mt-2">Rachel.123@gmail.com</span>
                                                 </p>
                                             </div>
                                         </div>
 
-                                        <div>
+                                        <div style={{width:"50px"} }>
                                             <div className="d-flex flex-row">
                                                 <img src="age 1.png" className="img" />
                                                 <p className="text ml-2">Age<br />
-                                                    <span className="details-text">23</span>
+                                                    <span className="details-text">34 Y</span>
                                                 </p>
                                             </div>
 
                                             <div className="d-flex flex-row">
                                                 <img src="genders 1.png" className="img" />
                                                 <p className="text ml-2">Gender<br />
-                                                    <span className="details-text mt-2">male</span>
+                                                    <span className="details-text mt-2">Female</span>
                                                 </p>
                                             </div>
                                         </div>

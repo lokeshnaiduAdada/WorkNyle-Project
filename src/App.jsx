@@ -31,6 +31,7 @@ import ListPayRolls from './components/ListPayRolls';
 import ListPurchase from './components/ListPurchase';
 import PaySlip from './components/PaySlip';
 import SalaryStructure from './components/SalaryStructure';
+import LeaveApplication from './components/LeaveApplication';
 
 function App() {
 
@@ -94,6 +95,7 @@ function App() {
                 {/*<Route path="/form" element={<Form></Form>}></Route> */}
                 <Route path="/" element={loading ? <LoginPage /> : <img id='loader-image' src="preloader.gif"  />} ></Route>
                 <Route path="/attendance" element={<Attendance />}></Route>
+                <Route path="/leaveapplication" element={<LeaveApplication/> }></Route>
                 <Route path="/addpayroll" element={<AddPayRoll />}></Route>
                 <Route path="/listpayroll" element={<ListPayRolls />}></Route>
                 <Route path="/listpurchase" element={<ListPurchase />}></Route>

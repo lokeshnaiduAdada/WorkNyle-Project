@@ -50,7 +50,7 @@ const Header = () => {
 
                         <div className="d-flex">
                             <div className="dropdown d-inline-block" style={{ width: '130px', paddingRight: '0px' }} >
-                                <button type="button" className="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{ color: 'white' }}>
+                                <button type="button" className="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{ color: 'white', borderStyle: "none" }}>
                                     User Name <i className="bi bi-arrow-down-short"></i>
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-end">

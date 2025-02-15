@@ -116,12 +116,14 @@ td {
     font-size: 18px;
     font-weight: 700;
     color: #666666;
+    display:flex;
+    justify-content:left;
 }
 
 .leave-application-card {
     background-color: white;
     height: 55px;
-    width: 100%;
+    width: 15%;
     border-radius: 10px;
     border: 3px solid #ffba46;
     border-bottom: transparent;
@@ -132,7 +134,7 @@ td {
 .leave-application-card1 {
     background-color: white;
     height: 55px;
-    width: 100%;
+    width: fit-content;
     border-radius: 10px;
     border: 3px solid #f4652d;
     border-bottom: transparent;
@@ -143,7 +145,7 @@ td {
 .leave-application-card2 {
     background-color: white;
     height: 55px;
-    width: 100%;
+    width: 15%;
     border-radius: 10px;
     border: 3px solid #42a9af;
     border-bottom: transparent;
@@ -154,7 +156,7 @@ td {
 .leave-application-card3 {
     background-color: white;
     height: 55px;
-    width: 100%;
+    width: 15%;
     border-radius: 10px;
     border: 3px solid #36c480;
     border-bottom: transparent;
@@ -166,6 +168,18 @@ td {
     font-family: "Open Sans";
     font-size: 15px;
     color: #666666;
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    justify-content: left;
+    display: flex;
+    width: 9rem;
+}
+@media (min-width:1220px){
+    #application-card {
+        display: grid;
+        grid-template-columns: repeat(5, 90px);
+        grid-auto-rows: 50px;
+    }
 }
 
 .background-form {
