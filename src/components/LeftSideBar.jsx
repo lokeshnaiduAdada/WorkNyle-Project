@@ -57,10 +57,10 @@ const LeftSideBar = () => {
                         </li>
 
                             <li>
-                            <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
-                                <img className="bi bi-search" src="/service.png" style={{ width: '25px' }}></img><br></br>
-                                <span className="leftsidemenu"> Services</span>
-                                    
+                                <a href="#" className="waves-effect text-center" style={{ padding: '8px' }}>
+                                    <img className="bi bi-search" src="/service.png" style={{ width: '25px' }}></img><br></br>
+                                    <span className="leftsidemenu"> Services</span>
+                                        
                                 </a>
                             </li>
 
