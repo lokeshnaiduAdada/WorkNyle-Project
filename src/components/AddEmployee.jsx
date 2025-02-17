@@ -105,7 +105,7 @@ const AddEmployee = () => {
                                         </div>
 
 
-                                        <div className="d-flex justify-content-between">
+                                        <div className="d-flex ">
                                             <div className="text-input mr-3">
                                                 <label htmlFor="dob" className="form-text mr-3">DOB: <span
                                                     className="text-danger">*</span></label>
@@ -116,7 +116,7 @@ const AddEmployee = () => {
                                             </div>
 
                                             <div className="text-input">
-                                                <label htmlFor="gender" className="hra-text mr-3" style={{ display: "flex", justifyContent: "right" }}>Gender: </label>
+                                                <label htmlFor="gender" className="hra-text mr-3" style={{ display: "flex", minWidth:"0px" }}>Gender: </label>
                                                 <select name="gender" className="form-control form-input" onChange={handleChange} style={{ appearance: "auto" }}>
                                                     <option value="male">Male</option>
                                                     <option value="female">Female</option>
@@ -200,7 +200,7 @@ const AddEmployee = () => {
                                             </div>
 
                                             <div className="text-input">
-                                                <label htmlFor="empCode" className="hra-text mr-3" style={{ display: "flex", justifyContent: "right" }}>Emp Code: <span className="text-danger">*</span></label>
+                                                <label htmlFor="empCode" className="hra-text mr-3" style={{ display: "flex", justifyContent: "right", minWidth: "0px" }}>Emp Code: <span className="text-danger">*</span></label>
                                                 <input type="text" id="empCode" name="empcode"
                                                     className="form-control form-input"
                                                     maxLength="10" onChange={handleChange}
@@ -244,7 +244,7 @@ const AddEmployee = () => {
                                 </div>
                             </div>
                             <div className="col-12 text-right mt-4">
-                                <button className="btn btn-primary" onClick={handleSubmit }>Save & Continue</button>
+                                <button className="btn btn-warning" style={{ color: "white", fontWeight:"700" }} onClick={handleSubmit} > Save & Continue</button>
                             </div>
                         </form>
                     </div>

@@ -51,6 +51,8 @@ const LeftSideBar = () => {
                             <ul className="sub-menu">
                                 <li style={{ fontSize: '25px' }}><Link to="/listpayroll" className="nav-link" style={{ padding: '8px' }}>List PayRoll</Link></li>
                                 <li style={{ fontSize: '25px' }}><Link to="/addpayroll" className="nav-link" style={{ padding: '8px' }}>Add PayRoll</Link></li>
+                                <li style={{ fontSize: '25px' }}><Link to="/payslip" className="nav-link" style={{ padding: '8px' }}>Pay Slips</Link></li>
+                                <li style={{ fontSize: '25px' }}><Link to="/salarystructure" className="nav-link" style={{ padding: '8px' }}>Salary Structure</Link></li>
                             </ul>
                         </li>
 

@@ -58,7 +58,7 @@ const LoginPage = () => {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <button type="submit" className="btn btn-lg btn-primary btn-block" style={{ background: 'F34500' }} onClick={handleLoginButton }>Login</button>
+                                <button type="submit" className="btn btn-lg btn-primary btn-block" style={{ backgroundColor: "#F34500" }} onClick={handleLoginButton }>Login</button>
                             </div>
                         </form>
                     </div>

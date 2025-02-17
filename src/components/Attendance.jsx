@@ -2,9 +2,36 @@ import { useContext } from "react";
 import Header from "./Header";
 import LeftSideBar from "./LeftSideBar";
 import { UserContext } from "../Context/UserContext";
+import { PieChart, Pie, Cell,Tooltip } from "recharts";
 
 
 const Attendance = () => {
+
+    const casualLeavesdata = [
+        { name: "Used", value: 5 }, // Adjust values as per your requirement
+        { name: "Remaining", value: 10 },
+    ];
+    const COLORS = ["orange", "#C6C6C6"] // Yellow and Gray colors
+
+    const sickLeaveData = [
+        { name: "used", value: 2 },
+        { name: "Remaining", value: 9 }
+    ];
+    const COLORS1 = ["#d1d5db", "#F87113"];
+
+    const earnLeaveData = [
+        { name: "used", value: 7 },
+        { name: "Remaining", value: 10 },
+        {name:"carry forword", value:3}
+    ];
+    const COLORS2 = ["#d1d5db", "#89CDD1","#3EA8AE"];
+
+    const losOfPayData = [
+        { name: "This month", value: 4 },
+        { name: "Last months", value: 1 },
+        { name: "Total", value: 5 }
+    ];
+    const COLORS3 = ["#d1d5db", "#8DE0B8","#2BC179"];
 
     const { showmenu } = useContext(UserContext);
 
@@ -45,7 +72,23 @@ const Attendance = () => {
                                             <li className="casual-available-list"><span className="leave-card-list">Available: 10</span></li>
                                         </ul>
                                     </div>
-                                    <canvas id="casualLeaveChart" className="ml-3"></canvas>
+                                    <PieChart width={120} height={120}>
+                                        <Pie
+                                            data={casualLeavesdata}
+                                            cx="50%"
+                                            cy="50%"
+                                            innerRadius={35}
+                                            outerRadius={50}
+                                            startAngle={90}
+                                            endAngle={-270}
+                                            dataKey="value"
+                                        >
+                                            {casualLeavesdata.map((entry, index) => (
+                                                <Cell key = {`cell-${index}`} fill={COLORS[index]} />
+                                            ))}
+                                        </Pie>
+                                        <Tooltip />
+                                    </PieChart>
                                 </div>
                             </div>
 
@@ -59,7 +102,27 @@ const Attendance = () => {
                                         </ul>
                                     </div>
                                     <div>
-                                        <canvas id="sickLeaveChart" className="ml-3"></canvas>
+                                        <PieChart width={120} height={120}>
+                                            <Pie
+                                                innerRadius={35}
+                                                outerRadius={50}
+                                                startAngle={90}
+                                                endAngle={-270 }
+                                                cx="50%"
+                                                cy="50%"
+                                                data={sickLeaveData}
+                                                dataKey="value"
+                                            >
+                                                {
+                                                    sickLeaveData.map((element, index) => {
+                                                        return(
+                                                            <Cell key={index} fill={COLORS1[index]} />
+                                                        )
+                                                    })
+                                                }
+                                            </Pie>
+                                            <Tooltip/>
+                                        </PieChart>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +137,26 @@ const Attendance = () => {
                                             <li className="carry-forward-list"><span className="leave-card-list">Carry Forward : 03</span></li>
                                         </ul>
                                     </div>
-                                    <canvas id="earnedLeaveChart" className="ml-3"></canvas>
+                                    <PieChart width={120} height={120 }>
+                                        <Pie
+                                            data={earnLeaveData}
+                                            dataKey="value"
+                                            innerRadius={35}
+                                            outerRadius={50}
+                                            cx="50%"
+                                            cy="50%"
+                                            startAngle={90}
+                                            endAngle={-270 }
+                                        >
+                                            {
+                                                earnLeaveData.map((element, index) => {
+                                                    return (
+                                                        <Cell key={index} fill={COLORS2[index]} />
+                                                    )
+                                                })
+                                            }</Pie>
+                                        <Tooltip/>
+                                    </PieChart>
                                 </div>
                             </div>
 
@@ -88,7 +170,25 @@ const Attendance = () => {
                                             <li className="loss-total-list"><span className="leave-card-list">Total : 05</span></li>
                                         </ul>
                                     </div>
-                                    <canvas id="lossOfPayChart" className="ml-3"></canvas>
+                                    <PieChart width={120} height={120 }>
+                                        <Pie
+                                            data={losOfPayData}
+                                            dataKey="value"
+                                            innerRadius={35}
+                                            outerRadius={50}
+                                            startAngle={90}
+                                            endAngle={-270 }
+                                        >
+                                            {
+                                                losOfPayData.map((element, index) => {
+                                                    return (
+                                                        <Cell key={index} fill={COLORS3[index]} />
+                                                    )
+                                                })
+                                            }
+                                        </Pie>
+                                        <Tooltip/>
+                                    </PieChart>
                                 </div>
                             </div>
                         </div>

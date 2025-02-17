@@ -20,11 +20,11 @@ const AddPayRoll = () => {
                             <div className="col-12 mb-2">
                                 <div className="row">
                                     <h1 className="col-12 col-lg-3 leave-card-heading mr-3">Emp ID : <span
-                                        className="salary-heading-color">AB123456</span></h1>
+                                        className="salary-heading-color" style={{ paddingLeft: '4px' }}> AB123456</span></h1>
                                     <h1 className="col-12 col-lg-3 leave-card-heading mr-3">Emp Name : <span
-                                        className="salary-heading-color">Rachel Mathew</span></h1>
+                                        className="salary-heading-color" style={{ paddingLeft: '4px' }}> Rachel Mathew</span></h1>
                                     <h1 className="col-12 col-lg-3 leave-card-heading">Divison : <span
-                                        className="salary-heading-color">UI/UX Designer</span></h1>
+                                        className="salary-heading-color" style={{ paddingLeft: '4px' }}> UI/UX Designer</span></h1>
                                 </div>
                             </div>
                             <div className="col-12">
@@ -33,46 +33,46 @@ const AddPayRoll = () => {
                                         <div className="col-12 mb-2">
                                             <h1 className="leave-card-heading">Salary Breakup</h1>
                                         </div>
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{width:"120px"} }>Basic : 55,000.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "180px" }}>
+                                            <p className="salary-card-text" >Basic : 55,000.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>PF : 1,500.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "140px" }}>
+                                            <p className="salary-card-text" >PF : 1,500.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>HRA : 30,000.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "180px" }}>
+                                            <p className="salary-card-text" >HRA : 30,000.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>Medical : 1,500.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "180px" }}>
+                                            <p className="salary-card-text" >Medical : 1,500.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>Conveyance : 1,600.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "200px" }}>
+                                            <p className="salary-card-text" >Conveyance : 1,600.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>Personal : 0.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "150px" }}>
+                                            <p className="salary-card-text" >Personal : 0.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>Special Allowance: 50,000.00</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "250px" }}>
+                                            <p className="salary-card-text" >Special Allowance: 50,000.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2">
-                                            <p className="salary-card-text" style={{ width: "120px" }}>Professional Tax : xxxxxxxxx</p>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "250px" }}>
+                                            <p className="salary-card-text" >Professional Tax : xxxxxxxxx</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2 d-flex">
+                                        <div className="col-12 col-md-4 col-lg-2 d-flex" style={{ textAlign: "left", width: "180px" }}>
                                             <p className="salary-card-text d-flex mr-2">Bonus:</p>
                                             <select className="form-control" style={{ appearance: "auto" }}>
                                                 <option>Annually</option>
                                             </select>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2 d-flex">
+                                        <div className="col-12 col-md-4 col-lg-2 d-flex" style={{ textAlign: "left", width: "190px" }}>
                                             <p className="salary-card-text d-flex mr-2">Pay Days :</p>
                                             <select className="form-control" style={{ width: "50%", appearance: "auto" }} >
                                                 <option>30</option>
@@ -81,8 +81,8 @@ const AddPayRoll = () => {
 
                                         <div className="col-12 col-md-4 col-lg-2">
                                             <button className="d-flex align-items-center payroll-button">Generate <img
-                                                src={"/add.png" }
-                                                style={{ marginLeft: "5px", fontSize: "18px" }} ></img></button>
+                                                src={"/add.png"}
+                                                style={{ marginLeft: "5px", width: "20px" }} ></img></button>
                                         </div>
                                     </div>
                                 </div>

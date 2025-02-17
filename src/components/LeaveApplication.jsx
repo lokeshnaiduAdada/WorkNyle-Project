@@ -21,7 +21,7 @@ const LeaveApplication = () => {
                         <h1 className="leave-application-heading">Leave Balance</h1>
                     </div>
                     <div className="container-fluid">
-                        <div className="row d-flex flex-row mt-2" id="application-card">
+                        <div className="row d-flex flex-row mt-2 " id="application-card">
                             <div className="col-12 col-lg-2 leave-application-card mt-3 mr-3 mb-3">
                                 <p className="card-text  pl-2 pt-3 pr-3" >Casual Leaves: 05</p>
                             </div>

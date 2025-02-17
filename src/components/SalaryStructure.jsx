@@ -19,8 +19,8 @@ const SalaryStructure = () => {
                         <div className="row">
                             <div className="col-12 d-flex">
                                 <h1 className="leave-card-heading mr-3">Emp Code : <span
-                                    className="salary-heading-color">ABCD1234</span></h1>
-                                <h1 className="leave-card-heading">Emp Name : <span className="salary-heading-color">Mathew</span></h1>
+                                    className="salary-heading-color" style={{ paddingLeft: '4px' }}> ABCD1234</span></h1>
+                                <h1 className="leave-card-heading">Emp Name : <span className="salary-heading-color" style={{paddingLeft:'4px'} }> Mathew</span></h1>
                             </div>
                             <div className="col-12 col-md-6">
                                 <div className="form-background">
@@ -93,10 +93,9 @@ const SalaryStructure = () => {
                                             </div>
 
                                             <div className="text-input">
-                                                <label htmlFor="specialAllowance" className="hra-text mr-3">Special Allowance:</label>
+                                                <label htmlFor="specialAllowance" className="hra-text mr-3" >Special Allowance:</label>
                                                 <input type="text" id="specialAllowance" name="specialAllowance"
-                                                    className="form-control form-input"
-                                                     />
+                                                    className="form-control form-input"/>
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +168,7 @@ const SalaryStructure = () => {
                         </div>
 
                         <div className="row mt-3">
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-md-6" >
                                 <div className="form-background">
                                     <div className="section-headings pl-2 pb-1 pt-2">
                                         <h6>Bank Information</h6>
@@ -210,33 +209,34 @@ const SalaryStructure = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="form-background" style={{ width: "50%" } }>
-                                <div className="section-headings pl-2 pb-1 pt-2">
-                                    <h6>PF Information</h6>
-                                </div>
-
-                                <div className="p-3">
-                                    <div className="text-input">
-                                        <label htmlFor="uan" className="form-text mr-3">UAN: <span className="text-danger">*</span></label>
-                                        <input type="text" id="uan" name="uan"
-                                            className="form-control"
-                                            maxLength="20" 
-                                            required />
+                            <div className="col-12 col-md-6 form-margin">
+                                <div className="form-background" >
+                                    <div className="section-headings pl-2 pb-1 pt-2">
+                                        <h6>PF Information</h6>
                                     </div>
 
-                                    <div className="text-input">
-                                        <label htmlFor="pfNo" className="form-text mr-3">PF No: <span className="text-danger">*</span></label>
-                                        <input type="text" id="pfNo" name="pfNo"
-                                            className="form-control"
-                                            maxLength="22" 
-                                            required />
+                                    <div className="p-3">
+                                        <div className="text-input">
+                                            <label htmlFor="uan" className="form-text mr-3">UAN: <span className="text-danger">*</span></label>
+                                            <input type="text" id="uan" name="uan"
+                                                className="form-control"
+                                                maxLength="20" 
+                                                required />
+                                        </div>
+
+                                        <div className="text-input">
+                                            <label htmlFor="pfNo" className="form-text mr-3">PF No: <span className="text-danger">*</span></label>
+                                            <input type="text" id="pfNo" name="pfNo"
+                                                className="form-control"
+                                                maxLength="22" 
+                                                required />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="text-right mt-4">
-                                <button className="form-button">Save</button>
-                            </div>
+                        </div>
+                        <div className="text-right mt-4">
+                            <button className="form-button">Save</button>
                         </div>
                     </form>
                 </div>
