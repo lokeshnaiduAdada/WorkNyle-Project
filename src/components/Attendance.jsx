@@ -2,36 +2,36 @@ import { useContext } from "react";
 import Header from "./Header";
 import LeftSideBar from "./LeftSideBar";
 import { UserContext } from "../Context/UserContext";
-import { PieChart, Pie, Cell,Tooltip } from "recharts";
+// import { PieChart, Pie, Cell,Tooltip } from "recharts";
 
 
 const Attendance = () => {
 
-    const casualLeavesdata = [
-        { name: "Used", value: 5 }, // Adjust values as per your requirement
-        { name: "Remaining", value: 10 },
-    ];
-    const COLORS = ["orange", "#C6C6C6"] // Yellow and Gray colors
+    // const casualLeavesdata = [
+    //     { name: "Used", value: 5 }, // Adjust values as per your requirement
+    //     { name: "Remaining", value: 10 },
+    // ];
+    // const COLORS = ["orange", "#C6C6C6"] // Yellow and Gray colors
 
-    const sickLeaveData = [
-        { name: "used", value: 2 },
-        { name: "Remaining", value: 9 }
-    ];
-    const COLORS1 = ["#d1d5db", "#F87113"];
+    // const sickLeaveData = [
+    //     { name: "used", value: 2 },
+    //     { name: "Remaining", value: 9 }
+    // ];
+    // const COLORS1 = ["#d1d5db", "#F87113"];
 
-    const earnLeaveData = [
-        { name: "used", value: 7 },
-        { name: "Remaining", value: 10 },
-        {name:"carry forword", value:3}
-    ];
-    const COLORS2 = ["#d1d5db", "#89CDD1","#3EA8AE"];
+    // const earnLeaveData = [
+    //     { name: "used", value: 7 },
+    //     { name: "Remaining", value: 10 },
+    //     {name:"carry forword", value:3}
+    // ];
+    // const COLORS2 = ["#d1d5db", "#89CDD1","#3EA8AE"];
 
-    const losOfPayData = [
-        { name: "This month", value: 4 },
-        { name: "Last months", value: 1 },
-        { name: "Total", value: 5 }
-    ];
-    const COLORS3 = ["#d1d5db", "#8DE0B8","#2BC179"];
+    // const losOfPayData = [
+    //     { name: "This month", value: 4 },
+    //     { name: "Last months", value: 1 },
+    //     { name: "Total", value: 5 }
+    // ];
+    // const COLORS3 = ["#d1d5db", "#8DE0B8","#2BC179"];
 
     const { showmenu } = useContext(UserContext);
 
@@ -72,7 +72,7 @@ const Attendance = () => {
                                             <li className="casual-available-list"><span className="leave-card-list">Available: 10</span></li>
                                         </ul>
                                     </div>
-                                    <PieChart width={120} height={120}>
+                                    {/* <PieChart width={120} height={120}>
                                         <Pie
                                             data={casualLeavesdata}
                                             cx="50%"
@@ -88,7 +88,7 @@ const Attendance = () => {
                                             ))}
                                         </Pie>
                                         <Tooltip />
-                                    </PieChart>
+                                    </PieChart> */}
                                 </div>
                             </div>
 
@@ -102,7 +102,7 @@ const Attendance = () => {
                                         </ul>
                                     </div>
                                     <div>
-                                        <PieChart width={120} height={120}>
+                                        {/* <PieChart width={120} height={120}>
                                             <Pie
                                                 innerRadius={35}
                                                 outerRadius={50}
@@ -122,7 +122,7 @@ const Attendance = () => {
                                                 }
                                             </Pie>
                                             <Tooltip/>
-                                        </PieChart>
+                                        </PieChart> */}
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ const Attendance = () => {
                                             <li className="carry-forward-list"><span className="leave-card-list">Carry Forward : 03</span></li>
                                         </ul>
                                     </div>
-                                    <PieChart width={120} height={120 }>
+                                    {/* <PieChart width={120} height={120 }>
                                         <Pie
                                             data={earnLeaveData}
                                             dataKey="value"
@@ -156,7 +156,7 @@ const Attendance = () => {
                                                 })
                                             }</Pie>
                                         <Tooltip/>
-                                    </PieChart>
+                                    </PieChart> */}
                                 </div>
                             </div>
 
@@ -170,7 +170,7 @@ const Attendance = () => {
                                             <li className="loss-total-list"><span className="leave-card-list">Total : 05</span></li>
                                         </ul>
                                     </div>
-                                    <PieChart width={120} height={120 }>
+                                    {/* <PieChart width={120} height={120 }>
                                         <Pie
                                             data={losOfPayData}
                                             dataKey="value"
@@ -188,7 +188,7 @@ const Attendance = () => {
                                             }
                                         </Pie>
                                         <Tooltip/>
-                                    </PieChart>
+                                    </PieChart> */}
                                 </div>
                             </div>
                         </div>
