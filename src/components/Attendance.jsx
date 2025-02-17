@@ -72,6 +72,7 @@ const Attendance = () => {
                                             <li className="casual-available-list"><span className="leave-card-list">Available: 10</span></li>
                                         </ul>
                                     </div>
+                                    <canvas id="casualLeaveChart" className="ml-3"></canvas>
                                     {/* <PieChart width={120} height={120}>
                                         <Pie
                                             data={casualLeavesdata}
@@ -102,6 +103,7 @@ const Attendance = () => {
                                         </ul>
                                     </div>
                                     <div>
+                                        <canvas id="casualLeaveChart" className="ml-3"></canvas>
                                         {/* <PieChart width={120} height={120}>
                                             <Pie
                                                 innerRadius={35}
@@ -137,6 +139,7 @@ const Attendance = () => {
                                             <li className="carry-forward-list"><span className="leave-card-list">Carry Forward : 03</span></li>
                                         </ul>
                                     </div>
+                                    <canvas id="casualLeaveChart" className="ml-3"></canvas>
                                     {/* <PieChart width={120} height={120 }>
                                         <Pie
                                             data={earnLeaveData}
@@ -170,6 +173,7 @@ const Attendance = () => {
                                             <li className="loss-total-list"><span className="leave-card-list">Total : 05</span></li>
                                         </ul>
                                     </div>
+                                    <canvas id="casualLeaveChart" className="ml-3"></canvas>
                                     {/* <PieChart width={120} height={120 }>
                                         <Pie
                                             data={losOfPayData}
