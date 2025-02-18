@@ -40,38 +40,38 @@ const LeftSideBar = () => {
                                 <span className="leftsidemenu"> Dashboard </span>
                                 </a>
                         </li>
-                        <li style={{ backgroundColor: employeemenu ? "white" : "" }}>
+                        <li >
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }} onClick={handleEmployeemenu}>
                                 <img className="bi bi-search" src="/employee 2.png" style={{ width: '25px' }}></img><br></br>
                                 <span className="leftsidemenu">Employment</span>
                             </a>
                             <ul className="sub-menu" style={{ display: employeemenu ? "contents" : "none" }}>
-                                <li style={{ fontSize: '25px' }}><Link to="/employeelist" className="nav-link" style={{ padding: '8px' }}>List Employee</Link></li>
-                                <li style={{ fontSize: '25px' }}><Link to="/addemployee" className="nav-link" style={{ padding: '8px' }}>Add Employee</Link></li>
+                                <li style={{  backgroundColor: employeemenu ? "white" : "" }}><Link to="/employeelist" className="nav-link" style={{ padding: '8px' }}>List Employee</Link></li>
+                                <li style={{  backgroundColor: employeemenu ? "white" : "" }}><Link to="/addemployee" className="nav-link" style={{ padding: '8px' }}>Add Employee</Link></li>
                             </ul>
                         </li>
 
-                        <li style={{ backgroundColor: attendancemenu ? "white" : "" }}>
+                        <li >
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }} onClick={handleattendancemenu}>
                                 <img className="bi bi-search" src="/calendar.png" style={{ width: '25px' }}></img><br></br>
                                 <span className="leftsidemenu">Attendance</span>
                             </a>
                             <ul className="sub-menu" style={{ display: attendancemenu ? "contents" : "none" }}>
-                                <li style={{ fontSize: '25px' }}><Link to="/attendance" className="nav-link" style={{ padding: '8px' }}>Attendance</Link></li>
-                                <li style={{ fontSize: '25px' }}><Link to="/leaveapplication" className="nav-link" style={{ padding: '8px' }}>Leave Application</Link></li>
+                                <li style={{  backgroundColor: attendancemenu ? "white" : "" }}><Link to="/attendance" className="nav-link" style={{ padding: '8px' }}>Attendance</Link></li>
+                                <li style={{  backgroundColor: attendancemenu ? "white" : "" }}><Link to="/leaveapplication" className="nav-link" style={{ padding: '8px' }}>Leave Application</Link></li>
                             </ul>
                         </li>
 
-                        <li style={{ backgroundColor: payrollmenu ? "white" : "" }}>
+                        <li >
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }} onClick={handlepayrollmenu}>
                                 <img className="bi bi-search" src="/wages.png" style={{ width: '25px' }}></img><br></br>
                                 <span className="leftsidemenu">PayRoll</span>
                             </a>
                             <ul className="sub-menu" style={{ display: payrollmenu ? "contents" : "none" }}>
-                                <li style={{ fontSize: '25px' }}><Link to="/listpayroll" className="nav-link" style={{ padding: '8px' }}>List PayRoll</Link></li>
-                                <li style={{ fontSize: '25px' }}><Link to="/addpayroll" className="nav-link" style={{ padding: '8px' }}>Add PayRoll</Link></li>
-                                <li style={{ fontSize: '25px' }}><Link to="/payslip" className="nav-link" style={{ padding: '8px' }}>Pay Slips</Link></li>
-                                <li style={{ fontSize: '25px' }}><Link to="/salarystructure" className="nav-link" style={{ padding: '8px' }}>Salary Structure</Link></li>
+                                <li style={{  backgroundColor: payrollmenu ? "white" : "" }}><Link to="/listpayroll" className="nav-link" style={{ padding: '8px' }}>List PayRoll</Link></li>
+                                <li style={{  backgroundColor: payrollmenu ? "white" : "" }}><Link to="/addpayroll" className="nav-link" style={{ padding: '8px' }}>Add PayRoll</Link></li>
+                                <li style={{  backgroundColor: payrollmenu ? "white" : "" }}><Link to="/payslip" className="nav-link" style={{ padding: '8px' }}>Pay Slips</Link></li>
+                                <li style={{  backgroundColor: payrollmenu ? "white" : "" }}><Link to="/salarystructure" className="nav-link" style={{ padding: '8px' }}>Salary Structure</Link></li>
                             </ul>
                         </li>
 

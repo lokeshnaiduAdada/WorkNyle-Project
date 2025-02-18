@@ -135,23 +135,23 @@ const Attendance = () => {
                                         </ul>
                                     </div>
                                     <PieChart width={120} height={120}>
-                                        <Pie
+                                            <Pie 
                                             innerRadius={35}
                                             outerRadius={50}
                                             dataKey="value"
                                             data={earnedLeaveData}
                                             cx="50%"
                                             cy="50%">
-                                            {
-                                                earnedLeaveData.map((element, index) => {
-                                                    return (
-                                                        <Cell key={index} fill={colors3[index]} />
-                                                    )
-                                                })
-                                            }
-                                        </Pie>
-                                        <Tooltip />
-                                    </PieChart>
+                                                {
+                                                    earnedLeaveData.map((element,index)=>{
+                                                        return(
+                                                            <Cell key={index} fill={colors3[index]}/>
+                                                        )
+                                                    })
+                                                }
+                                            </Pie>
+                                            <Tooltip/>
+                                        </PieChart>
                                     
                                 </div>
                             </div>
@@ -177,7 +177,7 @@ const Attendance = () => {
                                             {
                                                 loseOfPayLeaveData.map((element, index) => {
                                                     return (
-                                                        <Cell key={index} fill={colors4[index]} />
+                                                        <Cell key={index} fill={colors3[index]} />
                                                     )
                                                 })
                                             }
