@@ -15,9 +15,6 @@ const Form = () => {
     const [dob, setDob] = useState("");
     const [age, setAge] = useState("");
     const [gender, setGender] = useState("");
-    //const [doj, setDoj] = useState("")
-    //const [designation, setDesignation] = useState("");
-    //const [empcode, setEmpCode] = useState("");
 
     const handleSubmit = (e) => {
 
@@ -109,30 +106,6 @@ const Form = () => {
                                 </select>
                             </td>
                         </tr>
-                        {/*<tr className="table-secondary">*/}
-                        {/*    <th style={{ color: 'black', textAlign: 'left' }}>Date of Joining</th>*/}
-                        {/*    <td style={{ width: '1px', fontWeight: 'bold' }}>:</td>*/}
-                        {/*    <td>*/}
-                        {/*        <input style={{ width: '180px' }} type='date' value={doj} onChange={(e) =>*/}
-                        {/*            setDoj(e.target.value)}></input>*/}
-                        {/*    </td>*/}
-                        {/*</tr>*/}
-                        {/*<tr className="table-secondary">*/}
-                        {/*    <th style={{ color: 'black', textAlign: 'left' }}>Designation</th>*/}
-                        {/*    <td style={{ width: '1px', fontWeight: 'bold' }}>:</td>*/}
-                        {/*    <td>*/}
-                        {/*        <input type='text' value={designation} onChange={(e) =>*/}
-                        {/*            setDesignation(e.target.value)}></input>*/}
-                        {/*    </td>*/}
-                        {/*</tr>*/}
-                        {/*<tr className="table-secondary">*/}
-                        {/*    <th style={{ color: 'black', textAlign: 'left' }}>Employee Code</th>*/}
-                        {/*    <td style={{ width: '1px', fontWeight: 'bold' }}>:</td>*/}
-                        {/*    <td>*/}
-                        {/*        <input type='text' value={empcode} onChange={(e) =>*/}
-                        {/*            setEmpCode(e.target.value)}></input>*/}
-                        {/*    </td>*/}
-                            {/*</tr>*/}
                     </tbody>
                     </table>
                     <button type='submit' className="btn btn-primary" style={{ margin:"15px" }} onClick={handleSubmit}>Submit</button>

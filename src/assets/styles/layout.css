@@ -482,7 +482,7 @@ body[data-layout-size=boxed] #layout-wrapper {
 
 #sidebar-menu ul li ul.sub-menu li a {
     padding: .4rem 1.5rem .4rem 3.5rem;
-    font-size: 15px;
+    font-size: 14px;
     color: var(--bs-sidebar-menu-sub-item-color);
     background-color: transparent
 }
