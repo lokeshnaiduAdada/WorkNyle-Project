@@ -4,7 +4,7 @@ import { UserContext } from "../Context/UserContext";
 
 const RightSide = () => {
 
-    const { showmenu,data } = useContext(UserContext);
+    const { showmenu } = useContext(UserContext);
 
     return (
         //    < !-- ============================================================== -->
