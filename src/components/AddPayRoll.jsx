@@ -9,8 +9,8 @@ const AddPayRoll = () => {
     return (
         <>
             <Header />
-            {showmenu && <LeftSideBar/> }
-            <div style={{ backgroundColor: "#f1f1f1", paddingTop: "5rem", marginLeft: showmenu ? '130px' : '0px' }}>
+            {showmenu && <LeftSideBar />}
+            <div style={{ backgroundColor: "#f1f1f1", paddingTop: "5rem", marginLeft: showmenu ? '60px' : '0px' }}>
                 <div className="heading-bar">
                     <p className="main-heading m-2 ml-4">Add Payroll</p>
                 </div>
@@ -37,11 +37,7 @@ const AddPayRoll = () => {
                                             <p className="salary-card-text" >Basic : 55,000.00</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "140px" }}>
-                                            <p className="salary-card-text" >PF : 1,500.00</p>
-                                        </div>
-
-                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "180px" }}>
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "150px" }}>
                                             <p className="salary-card-text" >HRA : 30,000.00</p>
                                         </div>
 
@@ -61,18 +57,22 @@ const AddPayRoll = () => {
                                             <p className="salary-card-text" >Special Allowance: 50,000.00</p>
                                         </div>
 
+                                        <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "140px" }}>
+                                            <p className="salary-card-text" >PF : 1,500.00</p>
+                                        </div>
+
                                         <div className="col-12 col-md-4 col-lg-2" style={{ textAlign: "left", width: "250px" }}>
                                             <p className="salary-card-text" >Professional Tax : xxxxxxxxx</p>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2 d-flex" style={{ textAlign: "left", width: "180px" }}>
+                                        <div className="col-12 col-md-4 col-lg-2 d-flex" style={{ textAlign: "left", width: "180px", alignItems: "baseline" }}>
                                             <p className="salary-card-text d-flex mr-2">Bonus:</p>
                                             <select className="form-control" style={{ appearance: "auto" }}>
                                                 <option>Annually</option>
                                             </select>
                                         </div>
 
-                                        <div className="col-12 col-md-4 col-lg-2 d-flex" style={{ textAlign: "left", width: "190px" }}>
+                                        <div className="col-12 col-md-4 col-lg-2 d-flex" style={{ textAlign: "left", width: "190px", alignItems: "baseline" }}>
                                             <p className="salary-card-text d-flex mr-2">Pay Days :</p>
                                             <select className="form-control" style={{ width: "50%", appearance: "auto" }} >
                                                 <option>30</option>
@@ -82,7 +82,7 @@ const AddPayRoll = () => {
                                         <div className="col-12 col-md-4 col-lg-2">
                                             <button className="d-flex align-items-center payroll-button">Generate <img
                                                 src={"/add.png"}
-                                                style={{ marginLeft: "5px", width: "20px" }} ></img></button>
+                                                style={{ marginLeft: "5px", width: "20px", fontWeight: "600", fontSize:"16px" }} ></img></button>
                                         </div>
                                     </div>
                                 </div>

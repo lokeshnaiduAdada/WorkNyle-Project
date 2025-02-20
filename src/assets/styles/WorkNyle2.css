@@ -426,7 +426,7 @@ td {
 
 .hra-text {
     font-family: "Open Sans";
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     color: #575757;
    display:flex;
@@ -734,10 +734,10 @@ td {
 /* Add PayRoll Page */
 
 .salary-card-text {
-    font-family: "Open Sans";
+    font-family: "Rubik";
     font-size: 14px;
     color: #575757;
-    font-weight:600;
+    font-weight:400;
 }
 
 .payroll-button {

@@ -490,6 +490,7 @@ body[data-layout=horizontal] .footer {
         opacity: 0;
         overflow: hidden;
         list-style: none;
+        text-align:left;
         padding-left: 20px;
         transform: translateY(-10px);
         transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out, transform 0.4s ease-in-out;

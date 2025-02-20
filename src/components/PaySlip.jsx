@@ -26,8 +26,8 @@ const PaySlip = () => {
     return (
         <>
             <Header />
-            {showmenu && <LeftSideBar/>}
-            <div style={{ paddingTop: "5rem", marginLeft: showmenu ? '130px' : '0px' }}>
+            {showmenu && <LeftSideBar />}
+            <div style={{ paddingTop: "5rem", marginLeft: showmenu ? '60px' : '0px' }}>
                 <div className="heading-bar">
                     <p className="main-heading m-2 ml-4">Payslip</p>
                 </div>
@@ -39,7 +39,7 @@ const PaySlip = () => {
                                 <input type="text" id="mrNo" name="mrNo" className="form-control" placeholder="Emp code/ Name"
                                      maxLength="10" />
                             </div>
-                            <div className="col-12 col-md-2 d-flex button-top-padding">
+                            <div className="col-12 col-md-2 d-flex button-top-padding" id="payslip-buttons">
                                 <select className="form-control" style={{ appearance: "auto" }}>
                                     <option>Month</option>
                                 </select>

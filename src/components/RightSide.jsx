@@ -13,7 +13,7 @@ const RightSide = () => {
 
         <div className="main-content" style={{ marginRight: '0px' }} >
             <div className="page" >
-                <div style={{ paddingTop: "70px", marginLeft: showmenu ? '130px' :'0px' }}>
+                <div className="rightside-content" style={{ paddingTop: "70px", marginLeft: showmenu ? '60px' :'0px' }}>
                     <div className="container-fluid"  >
                         <div className="row">
                             <div className="col-12 employment-div">
@@ -34,10 +34,10 @@ const RightSide = () => {
                                     </div>
 
                                     <div className="pl-4 pr-4 pt-2 d-flex justify-content-between" style={{ gap: "15px" }}>
-                                        <div style={{ width:"50px" }}>
+                                        <div style={{ width:"120px" }}>
                                             <div className="d-flex flex-row">
                                                 <img src="Vector.png" className="img" />
-                                                <p className="text ml-2">Mobile Number<br />
+                                                <p className="text ml-2" >Mobile Number<br />
                                                     <span className="details-text">9876543210</span>
                                                 </p>
                                             </div>
@@ -57,7 +57,7 @@ const RightSide = () => {
                                             </div>
                                         </div>
 
-                                        <div style={{width:"50px"} }>
+                                        <div style={{width:"120px"} }>
                                             <div className="d-flex flex-row">
                                                 <img src="age 1.png" className="img" />
                                                 <p className="text ml-2">Age<br />

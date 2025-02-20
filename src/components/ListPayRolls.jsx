@@ -17,8 +17,8 @@ const ListPayRolls = () => {
     return (
         <>
             <Header />
-            {showmenu && <LeftSideBar/> }
-            <div style={{ paddingTop: "5rem", marginLeft: showmenu ? '130px' : '0px' }}>
+            {showmenu && <LeftSideBar />}
+            <div style={{ paddingTop: "5rem", marginLeft: showmenu ? '60px' : '0px' }}>
                 <div className="heading-bar">
                     <p className="main-heading m-2 ml-4">List Payroll</p>
                 </div>

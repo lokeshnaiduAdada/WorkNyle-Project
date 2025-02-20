@@ -12,9 +12,9 @@ const EmployeeList = () => {
     return (
         <>
             <Header />
-            {showmenu && < LeftSideBar />}
+            {showmenu && <LeftSideBar />}
             <div style={{
-                backgroundColor: '#f1f1f1', height: "43.9rem", paddingTop: "5rem", marginLeft: showmenu ? '130px' : '0px' }}>
+                backgroundColor: '#f1f1f1', height: "43.9rem", paddingTop: "5rem", marginLeft: showmenu ? '60px' : '0px' }}>
                 <div className="heading-bar" >
                     <p className="main-heading m-2 ml-4">List Employee</p>
                 </div>

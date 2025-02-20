@@ -62,8 +62,8 @@ const AddEmployee = () => {
     return (
         <>
             <Header />
-            {showmenu && < LeftSideBar />}
-            <div style={{ height: "40rem", paddingTop: "5rem", marginLeft: showmenu?'130px': '0px' }}>
+            {showmenu && <LeftSideBar/> }
+            <div style={{ height: "40rem", paddingTop: "5rem", marginLeft: showmenu?'60px': '0px' }}>
                 <div className="heading-bar">
                     <p className="main-heading m-2 ml-4">Add Employee</p>
                 </div>
@@ -105,7 +105,7 @@ const AddEmployee = () => {
                                         </div>
 
 
-                                        <div className="d-flex ">
+                                        <div className="d-flex just-content-space-between" style={{ justifyContent: "space-between" }}>
                                             <div className="text-input mr-3">
                                                 <label htmlFor="dob" className="form-text mr-3">DOB: <span
                                                     className="text-danger">*</span></label>
@@ -116,7 +116,7 @@ const AddEmployee = () => {
                                             </div>
 
                                             <div className="text-input">
-                                                <label htmlFor="gender" className="hra-text mr-3" style={{ display: "flex", minWidth:"0px" }}>Gender: </label>
+                                                <label htmlFor="gender" className="hra-text mr-3" style={{ display: "flex", minWidth: "0px", paddingRight: "10px" }}>Gender: </label>
                                                 <select name="gender" className="form-control form-input" onChange={handleChange} style={{ appearance: "auto" }}>
                                                     <option value="male">Male</option>
                                                     <option value="female">Female</option>
