@@ -1191,8 +1191,11 @@ body[data-layout-size=boxed] #layout-wrapper {
     padding-left:9px;
     background-color:white;
 }
+.changepassword-form{
+    background-color:#FFFFFF;
+}
 .vertical-menu {
-    width:50px;
+    width: 50px;
     z-index: 1001;
     background: #D9D9D9;
     bottom: 0;
@@ -1689,4 +1692,28 @@ body[data-layout-size=boxed] #layout-wrapper {
 .vertical-menu:hover {
     width: 130px;
     height: 630px;
+}
+#existingpassword, #newpassword , #confirmpassword {
+    width: 100px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "open sans";
+}
+#input-group{
+    width:50%
+
+}
+@media (max-width:480px) {
+    .input-group{
+        display:block !important;
+    }
+    #existingpassword, #newpassword, #confirmpassword {
+        width: 100%;
+    }
+}
+@media (max-width:930px){
+    #input-group {
+        width: 100%;
+    }
 }

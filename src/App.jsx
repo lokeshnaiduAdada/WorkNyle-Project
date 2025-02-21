@@ -28,10 +28,10 @@ import LoginPage from './components/LoginPage';
 import Attendance from './components/Attendance';
 import AddPayRoll from './components/AddPayRoll';
 import ListPayRolls from './components/ListPayRolls';
-import ListPurchase from './components/ListPurchase';
 import PaySlip from './components/PaySlip';
 import SalaryStructure from './components/SalaryStructure';
 import LeaveApplication from './components/LeaveApplication';
+import ChangePassword from './components/ChangePassword';
 
 function App() {
 
@@ -48,6 +48,7 @@ function App() {
         <>
             
             <Routes>
+                <Route path="/changepassword" element={<ChangePassword/> }></Route>
                 <Route path="/addemployee" element={<AddEmployee />}></Route>
                 <Route path="/employeelist" element={<EmployeeList />}></Route>
                 <Route path="/fetch" element={
@@ -65,7 +66,6 @@ function App() {
                 <Route path="/leaveapplication" element={<LeaveApplication/> }></Route>
                 <Route path="/addpayroll" element={<AddPayRoll />}></Route>
                 <Route path="/listpayroll" element={<ListPayRolls />}></Route>
-                <Route path="/listpurchase" element={<ListPurchase />}></Route>
                 <Route path="/payslip" element={<PaySlip />}></Route>
                 <Route path="/salarystructure" element={<SalaryStructure/> }></Route>
             </Routes>

@@ -33,23 +33,26 @@ const LeftSideBar = () => {
                         {/*<!-- <li className="menu-title">Main</li> -->*/}
 
                         <li>
-                            <a href="#" className="waves-effect text-center" style={{ padding: '8px' }} >
+                            <a href="/" className="waves-effect text-center" style={{ padding: '8px' }} >
 
                                 <img className="bi bi-columns-gap" src="/dashboard.png" style={{ width: '23px' }}></img><br></br>
                                 <span className="leftsidemenu"> Dashboard </span>
                             </a>
                         </li>
                         <li>
+                            <span></span>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }} >
                                 <img className="bi bi-search" src="/employee 2.png" style={{ width: '25px' }}></img><br></br>
                                 <span className="leftsidemenu">Employment</span>
                             </a>
+                            
                             <ul className="sub-menu">
                                 <li ><Link to="/employeelist" className="nav-link" style={{ padding: '8px' }}>List Employee</Link></li>
                                 <li ><Link to="/addemployee" className="nav-link" style={{ padding: '8px' }}>Add Employee</Link></li>
                             </ul>
-                        </li>
 
+                        </li>
+                        
                         <li>
                             <a href="#" className="waves-effect text-center" style={{ padding: '8px' }} >
                                 <img className="bi bi-search" src="/calendar.png" style={{ width: '25px' }}></img><br></br>
